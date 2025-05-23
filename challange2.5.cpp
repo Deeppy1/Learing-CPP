@@ -8,7 +8,7 @@ int main(){
     std::cout << "How many names? "; 
     std::cin >> number;
     for(int i = 0; i < number; i++){
-        std::cout << "Enter name " << i + 1 << " : ";
+        std::cout << "Enter name " << i +1 << " : ";
         std::cin >> name;
         names.push_back(name);
     }
